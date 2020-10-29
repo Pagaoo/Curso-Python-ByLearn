@@ -23,5 +23,5 @@ def subtracao():
   q = float(input('Digite o primeiro número: '))
   w = float(input('Digite o segundo número: '))
   sub = q - w
-  print(f'A subtração de {q} com {w} é de {sub}')
+  print('A subtração de {0} com {1} é de {2}'.format(q,w,sub))
 subtracao()
