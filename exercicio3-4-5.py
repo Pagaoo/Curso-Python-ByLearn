@@ -3,7 +3,7 @@ def multiplicacao():
   x = float(input('Digite o primeiro número: '))
   y = float(input('Digite o segundo número: '))
   mult = x * y
-  print('A multiplicação de',x, 'e',y, 'é de:', mult)
+  print(f'A multiplicação de {x} e {y} é {mult}')
 multiplicacao()
 
 print('------------------------------------')
@@ -13,7 +13,7 @@ def divisao():
   a = float(input('Digite o primeiro número: '))
   b = float(input('Digite o segundo número: '))
   div = a / b
-  print('A divisão de',a, 'com',b, 'é de: ', div)
+  print(f'A divisão de {a} com {b} é de: {div}')
 divisao()
 
 print('-----------------------------------------')
@@ -23,5 +23,5 @@ def subtracao():
   q = float(input('Digite o primeiro número: '))
   w = float(input('Digite o segundo número: '))
   sub = q - w
-  print('A subtração de',q, 'com',w, 'é de', sub)
+  print(f'A subtração de {q} com {w} é de {sub}')
 subtracao()
