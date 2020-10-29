@@ -1,7 +1,9 @@
-a = 10
-b = 15
+import random
+
+a = random.randint(0,30)
+b = random.randint(10,90)
 soma = a + b
-print(soma)
+print(f'Soma de {a} + {b} = {soma}')
 
 print('-------------------------------')
 
