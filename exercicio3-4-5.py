@@ -13,7 +13,7 @@ def divisao():
   a = float(input('Digite o primeiro número: '))
   b = float(input('Digite o segundo número: '))
   div = a / b
-  print(f'A divisão de {a} com {b} é de: {div}')
+  print('A divisão de {0} com {1} é de: {2}'.format(a,b,div))
 divisao()
 
 print('-----------------------------------------')
