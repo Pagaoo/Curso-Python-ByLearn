@@ -3,7 +3,7 @@ def multiplicacao():
   x = float(input('Digite o primeiro número: '))
   y = float(input('Digite o segundo número: '))
   mult = x * y
-  print(f'A multiplicação de {x} e {y} é {mult}')
+  print(f'A multiplicação de {x:.2f} e {y:.2f} é {mult}')
 multiplicacao()
 
 print('------------------------------------')
@@ -23,5 +23,6 @@ def subtracao():
   q = float(input('Digite o primeiro número: '))
   w = float(input('Digite o segundo número: '))
   sub = q - w
-  print('A subtração de {0} com {1} é de {2}'.format(q,w,sub))
+  print('A subtração de {} com {} é de {}'.format(q,w,sub))
 subtracao()
+##O format também funciona sem referenciar a posição.
