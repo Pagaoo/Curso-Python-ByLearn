@@ -46,3 +46,56 @@ lista_id2 = [9,15,24]
 lista_id3 = [11,15]
 lista_ids = lista_id1 + lista_id2 + lista_id3
 print(lista_ids)
+print('-------------------------------------------------')
+
+#Funções presentes nas listas
+##Append() -> adiciona um novo elemento na lista sempre no final da lista
+##Index() -> Mostra o index de um elemento da lista
+cursos = ['Python', 'Js', 'HTML']
+index_Js = cursos.index('Js')
+print(f'O indice do curso de Js é de: {index_Js}')
+print(cursos.index('HTML'))
+print('--------------------------------------------')
+##Insert() -> Insere um elemento na lista em uma determinada posição
+animais = ['Gato', 'Dog', 'Furão']
+animais.insert(0,'Peixe')
+print(animais)
+print('-----------------------------------------------')
+##In() -> Indica se o elemente está ou não na lista. (Não server só para uso em listas)
+cursos_alunos = ['Rafael', 'Roberta', 'Judite']
+checar = 'Aluno' in cursos_alunos
+print(checar)
+print('--------------------------------------------------------')
+##Remove() -> Remove um elemento determinado
+animais = ['Gato', 'Dog', 'Furão']
+animais.insert(0, 'Peixe')
+print(animais)
+animais.remove('Furão')
+print(animais)
+print('-----------------------------------------------')
+##Pop() -> Remove um elemento em um determinado indice, utilizando o indice passado, sem ver o que é o elemento
+animais = ['Gato', 'Dog', 'Furão']
+animais.insert(0, 'Peixe')
+print(animais)
+animais.pop(2)
+print(animais)
+print('------------------------------------------------')
+##Del()-> Remove um elemento em um determinado indice, interagindo com o elemento em si e o indice
+animais2 = ['Gato', 'Dog', 'Furão', 'Leão']
+del(animais2[2])
+print(animais2)
+print('------------------------------------------------')
+##Sort() -> Ordena os elementos da lista, interage diretamente na lista, não retorna nada
+lista_num = [11, 1, 15, 9, 2]
+print(lista_num)
+lista_num.sort()
+print(lista_num)
+lista_abc = ['c', 'f', 'h', 'a']
+print(lista_abc)
+lista_abc.sort()
+print(lista_abc)
+print('--------------------------------------------------')
+##Utilizando sorted()
+lista_num2 = [15, 3, 90, 8]
+print(sorted(lista_num2))
+print('--------------------------------------------------')
