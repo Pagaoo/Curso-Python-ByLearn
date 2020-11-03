@@ -14,4 +14,12 @@ lista_alunos = [] ##Inicialização de lista vazia
 #Há também o método de criação de listas built in
 lista = list() ##Equivale a uma lista vazia, lista = []
 var = 12
-lista_elementos = list(['a', 2, var])
+lista_elementos = list(['a', 2, var]) ##Lista com as váriaveis já definidas
+print(lista_elementos)
+
+#Copiando elementos de uma lista para outra
+list_a = list(['a', 'b', 'c', 'd'])
+list_b = list_a
+list_b.append('e')
+print(f'Lista_a: {list_a}')
+print(f'Lista b: {list_b}')
