@@ -29,3 +29,7 @@ checando = 'gabriel'.isalpha()
 print(checando)
 checando2 = '1g3e4123gfd'.isalpha()
 print(checando2)
+print('-----------------------------------------------')
+##Remover espaços em branco do inicio e do fim
+p = '       aaaaaaaaaaaaa        '
+print(p.strip())
