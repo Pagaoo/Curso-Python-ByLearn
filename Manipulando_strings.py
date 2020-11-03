@@ -37,3 +37,4 @@ print('-----------------------------------------------')
 ##Juntas itens da string atráves de algo, exemplo: ','
 pa = ', '.join('abc')
 print(pa)
+print('-----------------------------------------------')
