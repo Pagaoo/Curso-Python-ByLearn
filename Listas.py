@@ -39,3 +39,10 @@ teste3 = listaA[4:] #Mostra elementos da posição 4 em diante, até o final da 
 print(f'teste 1: {teste1}')
 print(f'teste 2: {teste2}')
 print(f'teste 3: {teste3}')
+print('-----------------------------------------------')
+#Juntando listas(JOIN)
+lista_id1 = [1,2,3,4]
+lista_id2 = [9,15,24]
+lista_id3 = [11,15]
+lista_ids = lista_id1 + lista_id2 + lista_id3
+print(lista_ids)
