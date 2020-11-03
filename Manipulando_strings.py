@@ -33,3 +33,7 @@ print('-----------------------------------------------')
 ##Remover espaços em branco do inicio e do fim
 p = '       aaaaaaaaaaaaa        '
 print(p.strip())
+print('-----------------------------------------------')
+##Juntas itens da string atráves de algo, exemplo: ','
+pa = ', '.join('abc')
+print(pa)
