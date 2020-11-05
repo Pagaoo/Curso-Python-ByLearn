@@ -5,7 +5,7 @@ def main():
   print('Número mágico')
   seu_numero = random.randint(1,5)
   print(seu_numero)
-  numero_magic = int(input('O seu númeoro é: '))
+  numero_magic = int(input('O seu número é: '))
   if numero_magic == seu_numero:
     print('O mágico acertou meu número')
   elif numero_magic > seu_numero:
