@@ -16,3 +16,14 @@ notas.append(10)
 
 for nota in notas:
     print(nota)
+
+print('-----------------------------------------------------------')
+
+##Better way
+notas = []
+
+for i in range(7):
+    notas.append(i)
+
+for nota in notas:
+    print(nota)
