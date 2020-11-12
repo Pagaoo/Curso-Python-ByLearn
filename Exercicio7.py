@@ -22,7 +22,7 @@ print('-----------------------------------------------------------')
 ##Better way
 notas = []
 
-for i in range(7):
+for i in range(9):
     notas.append(i)
 
 for nota in notas:
