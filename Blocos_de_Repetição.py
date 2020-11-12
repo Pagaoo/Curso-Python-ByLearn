@@ -7,3 +7,8 @@ for aluno in alunos:
 
 print('----------------------------------------------')
 
+##Matriz:
+lista = [[1,2], [3,4]]
+print(lista[0])
+print(lista[0][0])
+print(lista[1][0])
