@@ -8,11 +8,12 @@ def main():
             for nota in notas[i]:
                 soma += nota
             media = soma / len(notas[i])
-            print(f'O aluno: {alunos[i]} tem a média {media}')
             if(media >= 7):
-                print(f'- Foi aprovado')
+                print('Aluno aprovado: ')
             else:
-                print(f'- foi reprovado')
+                print('Aluno reprovado: ')
+            print(f'{alunos[i]} tem a média {media}')
+            
     else:
         print('Possivel falta de nota!')
 main()
