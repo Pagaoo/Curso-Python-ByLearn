@@ -32,3 +32,5 @@ def while2():
         for j in range(1,int(i) + 1):
             print('O número digitado é:', j)
 while2()
+
+##Não se itera int, precisa ser em um intervalo
