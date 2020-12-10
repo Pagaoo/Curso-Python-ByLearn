@@ -22,3 +22,13 @@ def whileMain():
         print(i)
         i += 1
 whileMain()
+
+print('----------------------------------------------')
+
+def while2():
+    i = '0'
+    while i != '9':
+        i = input('Digite um número: ')
+        for j in range(1,int(i) + 1):
+            print('O número digitado é:', j)
+while2()
