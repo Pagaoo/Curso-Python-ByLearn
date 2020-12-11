@@ -99,3 +99,13 @@ print('--------------------------------------------------')
 lista_num2 = [15, 3, 90, 8]
 print(sorted(lista_num2))
 print('--------------------------------------------------')
+
+##Jeito simplificado de programar lista com laço de repetição 'for'
+print('Jeito normal de declarar lista')
+listas = []
+for i in range(11):
+  lista.append(i)
+print(lista)
+print('Jeito simplificado')
+lista1 = [i for i in range(11)]
+print(lista1)
