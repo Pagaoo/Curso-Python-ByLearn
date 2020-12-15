@@ -11,4 +11,15 @@ def tupla():
 tupla()
 
 print('----------------------------------------------------------')
+##Para criar ou converter uma tuple, pode-se usar a função de mesmo nome: tuple()
+def tuplaEx():
+    tupla = tuple([i for i in range(11)])
+    print(tupla)
+tuplaEx()
 
+print('----------------------------------------------------------')
+
+lista = [1,2,3]
+tupla = tuple(lista)
+print(type(lista))
+print(type(tupla))
