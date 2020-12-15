@@ -1,4 +1,4 @@
-##Tuplas s„o inicializadas com os (), ao contrario das listas que s„o inicilizadas por []
+##Tuplas s√£o inicializadas com os (), ao contrario das listas que s√£o inicilizadas por []
 
 def tupla():
     tupla = (1, 2, 3)
