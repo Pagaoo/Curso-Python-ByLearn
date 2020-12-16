@@ -37,3 +37,25 @@ def frutas():
 frutas()
 
 print('--------------------------------------------------------')
+
+def interseccao():
+    conjunto = {'a','b','c','d'}
+    conjunto2 = {'a','j','e','h','x','d'}
+    conjunto_interseccao = conjunto.intersection(conjunto2)##Mostra os valores que existem em ambos
+    conjunto_deferenca = conjunto.difference(conjunto2) ##Mostra os valores distintos que existem no conjunto 1 para o conjunto 2
+    conjunto_deferenca2 = conjunto2.difference(conjunto)##Mostra os valores distintos que existem no conjunto 2 para o conjunto 1
+    print('intersecção dos conjuntos:',conjunto_interseccao)
+    print('diferença do conjunto1 para conjunto2:',conjunto_deferenca)
+    print('difenrença do conjunto 2 para o conjunto 1:',conjunto_deferenca2)
+interseccao()
+
+print('--------------------------------------------------------')
+
+def subconjunto():
+    conjunto1 = {1,2,3}
+    conjunto2 = {1,2,3,4,5,6,7}
+    subconjunto1 = conjunto1.issubset(conjunto2) ##Retorna true or false, para caso um conjunto esteja contido em outro, retorna True e caso não esteja, retorna False
+    print(subconjunto1)
+subconjunto()
+
+print('--------------------------------------------------------')
