@@ -7,3 +7,11 @@ def dict1():
     print(dict)
     print(type(dict))
 dict1()
+
+print('-----------------------------------------------------------')
+
+def dict2():
+    dict = {'dog':'cachorro', 'cat':'gato', 'bird':'passaro', 'fish':'peixe'}
+    print(dict['bird']) ##Não suporta o acesso por índices, mas sim pelas chaves
+    print(dict.get('bird')) ##Outra maneira de acessar os valores da dict
+dict2()
