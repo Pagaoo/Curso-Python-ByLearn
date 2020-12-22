@@ -1,8 +1,8 @@
 ##Os dicionarios são compostos por suas chaves e respectivos valores
-##Não aceitam duplicatas
+##Não aceitam duplicatas, e se houver chaves iguais com valores diferentes, o valor apresentado é o ultimo colocado
 
 def dict1():
-    dict = {'dog':'cachorro', 'cat':'gato', 'dog':'cachorro'}
+    dict = {'dog':'cachorro', 'cat':'gato', 'dog':'cachorro', 'dog':'peixe'}
     print(dict)
     print(type(dict))
 dict1()
