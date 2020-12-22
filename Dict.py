@@ -21,7 +21,10 @@ print('-----------------------------------------------------------')
 def dict3():
     dict = {'palavra':1, 'palavra2':2.8, 'palavra3':'palara4'} ##Pode usar numeros nas dicts como valores
     print(dict)
+    print('-----------------------------------------------------------')
     dict1 = {1:'um',2:'dois',3:'tres',4:'quatro'}##E também numeros nas chaves
     print(dict1)
     print(dict1[1])##Apesar de parecer um índice, está buscando pela CHAVE denominada '1'
+    for i in range(1,5):##Printa os valores com base nas chaves da dict1
+        print(dict1[i])
 dict3()
