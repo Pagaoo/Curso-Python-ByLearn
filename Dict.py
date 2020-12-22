@@ -42,6 +42,7 @@ def dict4():
     print('-'*25)
     print('Todas as chaves:',dict.keys())##Método que mostra as chaves presentes na dict
     print('Todos os valores:',dict.values())##Método que mostra os valores presentes na dict
+    print('Todos os itens:',dict.items())##Método retonar os itens da dict, em forma de uma tupla
     print('-'*25)
     ##É possivel integrar esses métodos em funções de loop, como o for
     for chaves in dict.keys():
@@ -49,4 +50,39 @@ def dict4():
     print('-'*25)
     for valores in dict.values():
         print(valores)
+    print('-'*25)
+    for item in dict.items():
+        print(item)
+        print(type(item))
+    print('-'*25)
+    ##Outro modo de fazer essa operação é:
+    for chave, valor in dict.items():
+        print(f'A chave é {chave} e o valor é {valor}')
+        print(f'O tipo da chave é {type(chave)} e o tipo do valor é {type(valor)}')
+    print('-'*25)
+    ##Teste de checagem
+    if 'dog' in dict:
+        print(f"O {dict['dog']} está no dicionario")
+    else:
+        print('Eu não sei a tradução dessa palavra')
 dict4()
+
+print('-'*25)
+
+##Adicionando outras chaves e valores na dict
+def dict5():
+    dict = {'dog':'cachorro', 'cat':'gato', 'fish':'peixe'}
+    dict['monkey'] = 'macaco'
+    
+    if 'monkey' in dict:
+        print(f"O {dict['monkey']} está no dicionario")
+    else:
+        print('Eu não sei a tradução dessa palavra')
+    
+    ##Utiliza-se pop para remover itens da dict
+    dict.pop('fish')
+    print(dict)
+    ##Existe também o comando clear, que limpa a dict
+    dict.clear()
+    print(dict)
+dict5()
