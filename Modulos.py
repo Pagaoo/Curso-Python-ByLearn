@@ -17,6 +17,7 @@ cos = math.cos(906)
 pi = math.pi
 # Valor de Euler:
 e = math.e
+
 print(f'Fatorial de 5 = {fat}')
 print(f'Raiz de 25 = {raiz}')
 print(f'O cosseno de 90 em radianos é: {cos}')
