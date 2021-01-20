@@ -20,3 +20,7 @@ print(f'Adição do vetor: {vetor+2}')
 print(f'Subtração do vetor: {vetor-2}')
 print(f'Multiplicação do vetor: {vetor*2}')
 print(f'Divisão do vetor: {vetor/2}')
+
+# Criar matriz 3D com zeros
+matriz_3D = np.zeros( (3,4,5) )
+print(f'Matriz 3D:\n {matriz_3D}')
