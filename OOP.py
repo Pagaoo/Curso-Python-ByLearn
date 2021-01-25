@@ -12,3 +12,13 @@ print(f'Estado do fusca: {fusca.estado}')
 print(f'Estado da ferrari: {ferrari.estado}')
 fusca.dirigir()
 print(f'Fusca depois de dirigido: {fusca.estado}')
+
+print('-'*30)
+
+# Construtores -> __init__
+
+class Carro():
+    def __init__(self, estado):  # É o construtor na linguagem python, onde constroi um parametro da classe
+        self.estado = estado
+bmw = Carro('Semi-novo')
+print(bmw.estado)
