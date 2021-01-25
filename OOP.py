@@ -22,3 +22,5 @@ class Carro():
         self.estado = estado
 bmw = Carro('Semi-novo')
 print(bmw.estado)
+
+print('-'*30)
