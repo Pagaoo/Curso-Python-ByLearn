@@ -2,7 +2,7 @@ class Car(object):
     estado = 'novo'
     
     def dirigir(self):
-        self.estado = 'usado'
+        self.estado = 'usado'  # Modifica o objeto que o chama, os self serve para se referir ao objeto dessa class
 
 fusca = Car()
 fusca.estado = 'novo'
