@@ -1,0 +1,1 @@
+f = open('arquivo.txt', 'r')  # r -> Read
