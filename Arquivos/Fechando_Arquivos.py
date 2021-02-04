@@ -1,0 +1,1 @@
+f = open('Arquivo//arquivo3.txt')
